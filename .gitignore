@@ -1,0 +1,20 @@
+.env
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/private/
+*.sqlite3
+
+# Local profile, benchmark, and runtime data: keep out of GitHub.
+data/raw/
+data/processed/
+data/evaluation/*
+!data/evaluation/README.txt
+bundle.txt
+capture_out.txt
+tune_out.txt
+manual_recruiter_query_rankings*.txt
+saral_recruiter_benchmark.txt
+.vscode/
